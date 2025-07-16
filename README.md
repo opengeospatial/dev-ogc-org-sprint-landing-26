@@ -1,17 +1,50 @@
 # README
 
-Generate static build:
+This repository hosts the source code of the Code Sprint #26 Website: https://developer.ogc.org/sprints/26
 
-`npm run build`
+The website is served from the [gh-pages](https://github.com/opengeospatial/dev-ogc-org-sprint-landing-26/tree/gh-pages) branch. Read [this note](#note-about-publishing-the-website), to understand how the website is generated. 
 
-Publish to GitHub Pages with:
+## Quick Start :rocket:
 
-`git subtree push --prefix dist origin gh-pages`
+Clone this repository with:
 
-If you need to force an update:
+`git clone https://github.com/opengeospatial/dev-ogc-org-sprint-landing-26.git`
 
-`git push origin `git subtree split --prefix dist master`:gh-pages --force`
+Then enter the folder:
 
-Available at:
+`cd dev-ogc-org-sprint-landing-26`
 
-`https://developer.ogc.org/sprints/25/`
+Install dependencies:
+
+`npm install`
+
+Start development server:
+
+`npm start`
+
+Once you start the development server, the site will be available at:
+
+`http://localhost:3000`
+
+The hot reload will ensure that the changes you do on the code will be reflected on the browser.
+
+### Note about Publishing the Website
+
+Commit all your changes to the `master` branch. **The `gh-pages` branch will be wiped each time, and generated dynamically from these [GitHub actions](https://github.com/opengeospatial/dev-ogc-org-sprint-landing-26/actions)**, which create a static build. In a nutshell, **you don't need to do anything to publish the website** - the republish will be triggered automatically with each push to `master`.
+
+## Contributing 🤝
+
+This website is a live project and we welcome contributions from the community! If you have suggestions for improvements, found a bug, or want to add new features, feel free to:
+
+* Open an [issue](https://github.com/opengeospatial/dev-ogc-org-sprint-landing-26/issues) to start a discussion
+* Submit a [pull request](https://github.com/opengeospatial/dev-ogc-org-sprint-landing-26/pulls) with your proposed changes
+
+We appreciate your support in making this website better!
+
+
+## License
+
+This project is released under an [MIT License](./LICENSE)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+(dev-exercise-template)
