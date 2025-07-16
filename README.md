@@ -2,7 +2,7 @@
 
 This repository hosts the source code of the Code Sprint #26 Website: https://developer.ogc.org/sprints/26
 
-The website is served from the [gh-pages](https://github.com/opengeospatial/dev-ogc-org-sprint-landing-26/tree/gh-pages) branch. Read [this note](#note-about-publishing-the-website), to understand how the website is generated. 
+The website is served from [GitHub actions](https://github.com/opengeospatial/dev-ogc-org-sprint-landing-26/actions). Read [this note](#note-about-publishing-the-website), to understand how the website is generated. 
 
 ## Quick Start :rocket:
 
@@ -30,7 +30,7 @@ The hot reload will ensure that the changes you do on the code will be reflected
 
 ### Note about Publishing the Website
 
-Commit all your changes to the `master` branch. **The `gh-pages` branch will be wiped each time, and generated dynamically from these [GitHub actions](https://github.com/opengeospatial/dev-ogc-org-sprint-landing-26/actions)**, which create a static build. In a nutshell, **you don't need to do anything to publish the website** - the republish will be triggered automatically with each push to `master`.
+Commit all your changes to the `master` branch. The static build will be generated each time from these [GitHub actions](https://github.com/opengeospatial/dev-ogc-org-sprint-landing-26/actions). In a nutshell, **you don't need to do anything to publish the website** - the republish will be triggered automatically with each push to `master`.
 
 ## Contributing 🤝
 
