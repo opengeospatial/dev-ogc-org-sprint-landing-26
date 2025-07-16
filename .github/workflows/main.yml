@@ -32,20 +32,20 @@ jobs:
       - name: install dependencies
         run: |
           npm install
-
+ 
       - name: build website
         run: |
           npm run build
-
+ 
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload build directory content
-          path: 'build/'
+          path: 'dist/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        env:
+        env:  
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
