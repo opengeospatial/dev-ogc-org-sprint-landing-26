@@ -3,3 +3,4 @@ src/assets/img/.DS_Store
 node_modules/*
 .DS_Store
 .editorconfig
+dist/*
