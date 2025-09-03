@@ -22,13 +22,13 @@
         font-weight: $headings-font-weight;
         letter-spacing: $headings-letter-spacing;
         text-transform: uppercase;
-        -webkit-text-stroke: 1px black;
-        text-shadow:
-            3px 3px 0 #000,
-            -1px -1px 0 #000,  
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
+        // -webkit-text-stroke: 1px black;
+        // text-shadow:
+        //     3px 3px 0 #000,
+        //     -1px -1px 0 #000,  
+        //     1px -1px 0 #000,
+        //     -1px 1px 0 #000,
+        //     1px 1px 0 #000;
 
         img {
             height: 1.5rem;
@@ -57,13 +57,13 @@
                 font-size: 0.95rem;
                 color: white;
                 letter-spacing: $headings-letter-spacing;
-                -webkit-text-stroke: 1px black;
+/*                 -webkit-text-stroke: 1px black;
                 text-shadow:
                     3px 3px 0 #000,
                     -1px -1px 0 #000,  
                     1px -1px 0 #000,
                     -1px 1px 0 #000,
-                    1px 1px 0 #000;
+                    1px 1px 0 #000; */
 
                 &.active,
                 &:hover {

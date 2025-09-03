@@ -14,9 +14,6 @@ html(lang='en')
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/3d_emblem_lockup.ico')
 
-        //- // Font Awesome icons (free version)
-        //- script(src='https://use.fontawesome.com/releases/v5.15.3/js/all.js', crossorigin='anonymous')
-
         // Font Awesome icons (free version)
         script(src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js', crossorigin='anonymous')
 
@@ -30,10 +27,6 @@ html(lang='en')
 
     body#page-top
 
-        //- #announcement-bar
-        //-     .text-center
-        //-         .text-muted This sprint is piloting a distributed model. Find more about local sprint nodes
-        //-             a(href='https://developer.ogc.org/sprints/nodes/') here.                
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
             .container
@@ -64,10 +57,10 @@ html(lang='en')
 
         // Masthead
         header.masthead
-            .container
-                .masthead-heading.text-uppercase #{title}
+            header.headings
+                .masthead-heading.text-white.text-uppercase #{title}
                 
-                .masthead-subheading 
+                .masthead-subheading.text-white 
                     i.fas.fa-hand-holding
                     | #{tagline}
                 
